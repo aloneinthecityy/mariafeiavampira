@@ -21,8 +21,8 @@
 	},
 	"scripts": {
 		"dev": "npx tinacms dev -c \"astro dev\"",
+		"build": "npx tinacms build -c \"astro build\"",
 		"start": "astro dev",
-		"build": "astro build",
 		"sync": "astro sync",
 		"preview": "astro preview",
 		"postbuild": "pagefind --site dist",
